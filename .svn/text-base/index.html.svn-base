@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Slideshow 2!</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css" media="screen" />
+	<script type="text/javascript" src="js/mootools.js"></script>
+	<script type="text/javascript" src="js/slideshow.js"></script>
+	<script type="text/javascript">		
+		window.addEvent('domready', function(){
+			window.show = new Slideshow('show');
+		});
+	</script>
+</head>
+<body>
+  <div id="show" class="slideshow">
+    <div class="slideshow-images">
+      <a rel="lightbox" href="specs/assets/0.jpg"><img id="slide-0" src="specs/assets/0.jpg" width="516" height="400" alt="0" /></a>
+      <a rel="lightbox" href="specs/assets/1.jpg"><img id="slide-1" src="specs/assets/1.jpg" width="746" height="400" alt="1" /></a>
+      <a rel="lightbox" href="specs/assets/2.jpg"><img id="slide-2" src="specs/assets/2.jpg" width="500" height="673" alt="2" /></a>
+      <a rel="lightbox" href="specs/assets/3.jpg"><img id="slide-3" src="specs/assets/3.jpg" width="525" height="400" alt="3" /></a>
+      <a rel="lightbox" href="specs/assets/4.jpg"><img id="slide-4" src="specs/assets/4.jpg" width="500" height="645" alt="4" /></a>
+      <a rel="lightbox" href="specs/assets/5.jpg"><img id="slide-5" src="specs/assets/5.jpg" width="537" height="400" alt="5" /></a>
+      <a rel="lightbox" href="specs/assets/6.jpg"><img id="slide-6" src="specs/assets/6.jpg" width="534" height="400" alt="6" /></a>
+      <a rel="lightbox" href="specs/assets/7.jpg"><img id="slide-7" src="specs/assets/7.jpg" width="533" height="400" alt="7" /></a>
+      <a rel="lightbox" href="specs/assets/8.jpg"><img id="slide-8" src="specs/assets/8.jpg" width="556" height="400" alt="8" /></a>
+      <a rel="lightbox" href="specs/assets/9.jpg"><img id="slide-9" src="specs/assets/9.jpg" width="500" height="684" alt="9" /></a>
+    </div>
+  
+    <div class="slideshow-thumbnails">
+      <ul>
+        <li><a href="#slide-0"><img src="specs/assets/0t.jpg" width="50" height="40" alt="0" /></a></li>
+        <li><a href="#slide-1"><img src="specs/assets/1t.jpg" width="50" height="40" alt="1" /></a></li>
+        <li><a href="#slide-2"><img src="specs/assets/2t.jpg" width="50" height="40" alt="2" /></a></li>
+        <li><a href="#slide-3"><img src="specs/assets/3t.jpg" width="50" height="40" alt="3" /></a></li>
+        <li><a href="#slide-4"><img src="specs/assets/4t.jpg" width="50" height="40" alt="4" /></a></li>
+        <li><a href="#slide-5"><img src="specs/assets/5t.jpg" width="50" height="40" alt="5" /></a></li>
+        <li><a href="#slide-6"><img src="specs/assets/6t.jpg" width="50" height="40" alt="6" /></a></li>
+        <li><a href="#slide-7"><img src="specs/assets/7t.jpg" width="50" height="40" alt="7" /></a></li>
+        <li><a href="#slide-8"><img src="specs/assets/8t.jpg" width="50" height="40" alt="8" /></a></li>
+        <li><a href="#slide-9"><img src="specs/assets/9t.jpg" width="50" height="40" alt="9" /></a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
